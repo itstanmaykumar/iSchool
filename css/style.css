@@ -2,11 +2,12 @@
     font-family: 'Manrope', sans-serif;
 }
 
-.rounded-10 {
-    border-radius: 10px !important;
-}
-
 .blur-25 {
     border-radius: 10px;
     filter: grayscale(25%) blur(2px) brightness(50%);
+}
+
+.register-cover {
+    background: url(../img/login-back.jpg);
+    background-size: cover;
 }
